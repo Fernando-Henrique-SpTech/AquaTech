@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    background-color: #000000;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.header {
+    border-bottom: 3px solid green;
+}
+.titulo {
+    color: green;
+    font-weight: 500;
+}
+.navbar {
+    width: 400px;
+    display: flex;
+    color: brown;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.header .container {
+    justify-content: space-between;
+}
